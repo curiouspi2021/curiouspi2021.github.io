@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="custom.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="prism.js"></script>
+    <link rel="stylesheet" href="prism.css">
+    <title>My Notes</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav m-auto">
+            <a class="nav-item nav-link" href="html.html">HTML</a>
+            <a class="nav-item nav-link" href="js.html">JS</a>
+            <a class="nav-item nav-link" href="php.html">PHP</a>
+            <a class="nav-item nav-link" href="css.php">CSS</a>
+            <a class="nav-item nav-link" href="sql.html">SQL</a>
+            <a class="nav-item nav-link" href="java.html">JAVA</a>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+        <a href="https://www.codewithharry.com/blogpost/javascript-cheatsheet/"><h3>codewithharry JS</h3></a>
+        <h1 class="text-center bg-dark">More modern JS concepts</h1>
+        <p>Media-type SS in laptop</p>
+        <pre class="language-css"><code class="codeBox">@media media-type and (media-feature-expression){  css rule  }</code></pre>
+        <p>We can have a totally different design for printing through @media print{}</p>
+        <h1 class="text-center bg-dark">Aggregations</h1>
+        <p>We can use below code to specify media features.</p>
+        <pre class="language-css"><code class="codeBox">
+          @media(width: 800px){}
+        </code></pre>
+        <p>For all screen widths less than or equal to 799px</p>
+        <pre class="language-css"><code class="codeBox">
+          @media(max-width: 799px){}
+        </code></pre>
+        <p>Similarly min-width, min-height, max-height is applied.</p>
+        <pre class="language-css"><code class="codeBox">
+          @media(orientation: landscape){}
+        </code></pre>
+        <p>Similarly (orientation: portrait) can also be applied.</p>
+        <h3>Logical Operations</h3>
+        <pre class=""><code class="codeBox">
+          @media(cond1) and (cond2) {}
+        </code></pre>
+        <pre class=""><code class="codeBox">
+          @media not screen (cond1) and (cond2) {} 
+        </code></pre>
+        <p>NOT will include everything which doesn't fall under the written conditions and apply styling to that only.It is must to use media-type (screen here) to use NOT operator.</p>
+        <pre class=""><code class="codeBox">
+          /*This will work like OR condition*/
+          @media(), () {} 
+        </code></pre>
+        <p>display : none, is same as bootstraps d-none class.</p>
+        <h1 class="text-center bg-dark">CSS Flexbox</h1>
+        <h3>Sizing and overflow</h3>
+        <h4>Intrinsic Size</h4>
+        <p>Default size of any html element say image, paragraph, heading or button</p>
+        <h4>Extrinsic Size</h4>
+        <p>Sizing we apply on different elements through styles to fit them in the web page.</p>
+        <p>Order-sm-1 and so Order-sm-2 will change order of items.</p>
+        
+        
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
