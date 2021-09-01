@@ -1,0 +1,24 @@
+.todo-item{
+    /* background-color: rgb(208, 245, 239); */
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.label{
+    color: black;
+    width: 85%;
+    padding-top: 6px;
+    margin-left: 15px;
+}
+
+.labelDone{
+    color: black;
+    width: 85%;
+    text-decoration: line-through;
+    padding-top: 6px;
+    margin-left: 15px;
+}
+
+.button{
+    margin-left: auto;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "DoIt",
+    "short_name": "TodoList",
+    "theme_color": "#ffcbe4",
+    "background_color": "#fa99ca",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": ".",
+    "description": "Todo List to finish your pending tasks which will run an alarm every one hour.",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "https://cdn-icons-png.flaticon.com/512/1/1560.png",
+            "sizes": "1024x1024"
+        }
+    ]
+}
