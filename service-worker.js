@@ -3,6 +3,7 @@ var CACHE_NAME = 'webapk-cache';
 var urlsToCache = [
 	'/',
 	'https://cdn-icons-png.flaticon.com/512/1/1560.png',
+	'http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/music/lose.ogg',
 ];
 var urlsNotToCache = [
 ];
