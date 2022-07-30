@@ -1,17 +1,15 @@
 {
-    "name": "DoIt",
-    "short_name": "TodoList",
-    "theme_color": "#ffcbe4",
-    "background_color": "#fa99ca",
+    "short_name": "YTclone",
+    "name": "Youtube Listener",
+    "icons": [
+      {
+        "src": "/images/ytclone.png",
+        "sizes": "512x512"
+      }
+    ],
+    "background_color": "red",
     "display": "standalone",
     "scope": "/",
-    "start_url": ".",
-    "description": "Todo List to finish your pending tasks which will run an alarm every one hour.",
-    "orientation": "any",
-    "icons": [
-        {
-            "src": "https://icon-library.com/images/to-do-list-icon/to-do-list-icon-13.jpg",
-            "sizes": "1024x1024"
-        }
-    ]
+    "theme_color": "black",
+    "description": "To listen YT in the background without an android app"
 }

@@ -1,47 +1,27 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-   <link rel="manifest" href="manifest.json">
-    <title>Todo List</title>
-</head>
+    <title>YT clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
   <body>
-      <h1 class="p-auto text-light bg-dark text-center pt-2 pb-3">Todo List App</h1>
-    <div class="container my-3 d-flex flex-row">
-        <input type="text" class="form-control m-2" id="taskInput" placeholder="Add task">
-        <button onclick="addTodoInTodoList()" class="btn btn-success m-2">Add</button>
-    </div>
-    <div id="allTodos" class="container">
-        <h4 id="date" class="p-auto text-light bg-dark text-center pt-2 pb-2"></h4>
-        <!-- <div class="todo-item d-flex flex-row ">
-            <input id="check" type="checkbox">
-            <label class="label" for="check">Learn HTML dadasd asdasd adasd asdasd adsasdads sadad asdadsa</label>
-            <div class="d-flex flex-column justify-content-center button">
-                <button class="btn btn-danger"><i class="bi bi-trash-fill"></i></button>
-            </div>    
-        </div> -->
-    </div>
+    <h1 class="text-center">Search YT</h1>
     <div class="container">
-        <button class="btn btn-success" onclick="saveToLocal()">Save</button>
+        <div class="search d-flex my-2">
+            <input type="text" class="form-control mx-2" id="search" placeholder="Enter video title">
+            <button class="btn btn-primary" id="searchButton">Search</button>
+        </div>
+        <hr>
+        <div class="searchResults">
+            <div class="row" id="searchResults">
+                
+            </div>
+        </div>
     </div>
-    <div class="container my-4 d-none">
-    <audio id="audio2" preload="auto" controls>
-        <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/music/lose.ogg" type="audio/ogg">
-      Your browser does not support the audio element.
-    </audio> 
-    </div>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    <script src="master.js"></script>
 
-    <script src="playAudio.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
-
